@@ -13,6 +13,8 @@ import SectionListPractice from './practice/SectionList';
 import ClassComponent from './practice/ClassComStateProps';
 import LifeCycleWithUseEffect from './practice/LifeCycleWithUseEffect';
 import ComponentDidUpdate from './practice/componentDidUpdate';
+import ShowHideToggle from './practice/ShowHideToggleCompo';
+import ComponentDidUnmount from './practice/ComponentDidUnmount';
 
 // export default function App() {
 //   return (
@@ -62,7 +64,10 @@ const App = () => {
         {/* <SectionListPractice/> */}
         {/* <ClassComponent/> */}
         {/* <LifeCycleWithUseEffect/> */}
-        <ComponentDidUpdate/>
+        {/* <ComponentDidUpdate/> */}
+        {/* <ShowHideToggle/> */}
+        <ComponentDidUnmount/>
+
     </View>
   );
 }
